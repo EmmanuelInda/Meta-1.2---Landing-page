@@ -1,0 +1,61 @@
+header {
+    background: url('img/rumorosa.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 180px;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+
+.header-content {
+    width: 100%;
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow:
+       -2px -2px 0 darkgreen,
+        2px -2px 0 darkgreen,
+       -2px  2px 0 darkgreen,
+        2px  2px 0 darkgreen;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+thead {
+    background-color: darkgreen;
+    color: white;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+    margin-top: 60px;
+}
